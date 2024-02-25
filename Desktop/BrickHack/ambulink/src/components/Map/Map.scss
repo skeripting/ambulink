@@ -1,0 +1,18 @@
+.map-container {
+  width: 100%; /* Full width of the parent container */
+  height: 100%; /* Full height of the parent container */
+  position: relative; /* if you want it to be positioned inside relative parent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mapId {
+  height: 100%;
+  width: 100%;
+}
+
+/* If `mapId` doesn't work, try using the class that `react-leaflet` assigns to the map container */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
