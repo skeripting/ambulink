@@ -1,0 +1,22 @@
+.text-button {
+  width: 100%;
+  background: #f63c4a;
+  border-radius: 8px;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  min-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+  &[color="blue"] {
+    background: #256ac4;
+  }
+  transition: all 0.3s;
+
+  &:hover {
+    filter: brightness(1.4);
+    transform: scale(1.01);
+  }
+}
