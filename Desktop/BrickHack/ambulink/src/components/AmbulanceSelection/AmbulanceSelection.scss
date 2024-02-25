@@ -1,0 +1,41 @@
+.ambulance-selection {
+  border: 1px solid #5e5e5e;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 600;
+  width: auto;
+  height: 60px;
+  padding-inline: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: 2rem;
+  .arrival-time {
+    position: absolute;
+    right: 0;
+    margin-right: 2rem !important;
+    color: #a9a9a9 !important;
+  }
+  svg {
+    transform: scale(0.7);
+  }
+  transition: all;
+  cursor: pointer;
+  &[selected="1"] {
+    background-color: #aa232d;
+    color: white;
+  }
+  &[color="blue"] {
+    border: 1px solid #256ac4;
+  }
+  &:hover {
+    background-color: #f63c4a;
+    color: white;
+    * {
+      color: white !important;
+    }
+  }
+}
