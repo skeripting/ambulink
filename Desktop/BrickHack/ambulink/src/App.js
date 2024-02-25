@@ -4,6 +4,7 @@ import DispatcherLogin from "./pages/DispatcherLogin/DispatcherLogin";
 import AmbulanceLogin from "./pages/AmbulanceLogin/AmbulanceLogin";
 import PatientLogin from "./pages/PatientLogin/PatientLogin";
 import WelcomeDispatcher from "./pages/WelcomeDispatcher/WelcomeDispatcher";
+import AmbulanceAwaitingDispatch from "./pages/AmbulanceAwaitingDispatch/AmbulanceAwaitingDispatch";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
           <Route
             path="/welcome-dispatcher"
             element={<WelcomeDispatcher></WelcomeDispatcher>}
+          />
+          <Route
+            path="/ambulance-awaiting-dispatch"
+            element={<AmbulanceAwaitingDispatch></AmbulanceAwaitingDispatch>}
           />
         </Routes>
       </div>

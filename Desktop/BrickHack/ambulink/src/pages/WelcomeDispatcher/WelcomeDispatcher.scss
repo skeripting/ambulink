@@ -57,5 +57,13 @@
       height: 300px;
       overflow-y: auto;
     }
+    .ambulance-logo {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
   }
 }
